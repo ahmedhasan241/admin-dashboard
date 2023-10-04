@@ -17,6 +17,12 @@
   .table .btn-delete {
     @apply hidden sm:flex items-center justify-center rounded-lg bg-red-700 px-2 py-1 my-auto md:px-4 md:py-2 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-green-300;
   }
+  .table .edit {
+    @apply my-5 mr-4 text-xl  text-blue-700;
+  }
+  .table .delete {
+    @apply my-5  text-xl  text-red-700;
+  }
   .modal-active {
     @apply bg-gray-900 bg-opacity-50 dark:bg-opacity-80 fixed inset-0 z-40;
   }
