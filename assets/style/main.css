@@ -110,7 +110,7 @@
     @apply flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600;
   }
   .main-title {
-    @apply text-3xl font-medium ml-3 mb-5 text-gray-700 dark:text-white;
+    @apply text-3xl font-medium ml-3 mb-10 text-gray-700 dark:text-white;
   }
   .contain-title {
     @apply mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-4xl;
@@ -119,10 +119,10 @@
     @apply text-black dark:text-white dark:bg-gray-900;
   }
   .dashboard .dashboard-card {
-    @apply w-full px-6 mt-6 sm:w-1/2 xl:w-1/3 sm:mt-0;
+    @apply w-full md:px-16 mt-6 sm:w-1/2 xl:w-1/3 sm:mt-0 items-center my-8;
   }
   .dashboard .dashboard-card .dashboard-card-contain {
-    @apply flex items-center px-5 py-6 bg-gray-100 dark:bg-gray-800 rounded-md shadow-sm;
+    @apply flex items-center  px-5 py-6 bg-gray-100 dark:bg-gray-800 rounded-md shadow-sm;
   }
   .dashboard .dashboard-card .dashboard-card-contain .card-contain {
     @apply mx-5;
@@ -131,7 +131,7 @@
     @apply text-2xl font-semibold text-gray-700 dark:text-gray-300;
   }
   .dashboard .dashboard-card .dashboard-card-contain .card-contain .card-description {
-    @apply text-gray-500 dark:text-gray-100;
+    @apply text-gray-500 dark:text-gray-100 text-sm;
   }
   .order-history {
     @apply text-gray-700 dark:text-white bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-lg;

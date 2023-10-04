@@ -2,10 +2,10 @@
 .dashboard
   h3.main-title Overview
   div.mt-4
-    div.flex.flex-wrap.mx-6
+    div.flex.flex-wrap.mx-0
       div.dashboard-card
         div.dashboard-card-contain
-          div.p-3.bg-indigo-600.bg-opacity-75.rounded-full
+          div.p-3.mx-2.bg-indigo-600.bg-opacity-75.rounded-full
             svg.w-8.h-8.text-white(viewBox="0 0 28 30", fill="none", xmlns="http://www.w3.org/2000/svg")
               path(d="M18.2 9.08889C18.2 11.5373 16.3196 13.5222 14 13.5222C11.6804 13.5222 9.79999 11.5373 9.79999 9.08889C9.79999 6.64043 11.6804 4.65556 14 4.65556C16.3196 4.65556 18.2 6.64043 18.2 9.08889Z", fill="currentColor")
               path(d="M25.2 12.0444C25.2 13.6768 23.9464 15 22.4 15C20.8536 15 19.6 13.6768 19.6 12.0444C19.6 10.4121 20.8536 9.08889 22.4 9.08889C23.9464 9.08889 25.2 10.4121 25.2 12.0444Z", fill="currentColor")
