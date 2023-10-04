@@ -18,7 +18,7 @@ table.table
           td.flex.items-center.px-4.py-3
             button(
               @click="editProduct(row.id)"
-              class="btn-add"
+              class="btn-edit"
             ) Edit
             button(
               @click="deleteProduct(row.id)"
