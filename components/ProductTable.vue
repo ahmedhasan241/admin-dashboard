@@ -20,10 +20,12 @@ table.table
             @click="editProduct(row.id)"
             class="btn-edit"
           ) Edit
+          Icon(name="material-symbols:edit-calendar" @click="editUser(row.id)" class="my-5 mr-4 text-xl  text-blue-700")
           button(
             @click="deleteProduct (row.id)"
             class="btn-delete"
           ) Delete
+          Icon(name="material-symbols:delete-outline-sharp" @click="deleteUser(row.id)" class="my-5  text-xl  text-red-700")
 </template>
 
 <script setup>

@@ -12,10 +12,10 @@
       @apply border-b dark:border-gray-700;
     }
     .btn-edit {
-      @apply flex items-center justify-center rounded-lg bg-blue-700 px-2 py-1 my-auto md:px-4 md:py-2 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-green-300 mr-2;
+      @apply hidden sm:flex items-center justify-center rounded-lg bg-blue-700 px-2 py-1 my-auto md:px-4 md:py-2 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-green-300 mr-2;
     }
     .btn-delete {
-      @apply flex items-center justify-center rounded-lg bg-red-700 px-2 py-1 my-auto md:px-4 md:py-2 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-green-300;
+      @apply hidden sm:flex items-center justify-center rounded-lg bg-red-700 px-2 py-1 my-auto md:px-4 md:py-2 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-green-300;
     }
   }
   .modal-active {
