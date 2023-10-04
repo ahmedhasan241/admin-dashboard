@@ -17,11 +17,11 @@ table.table
             ) {{ row[column.key] }}
           td.flex.items-center.px-4.py-3
             button(
-              @click="editProduct(row.id)"
+              @click="editUser(row.id)"
               class="btn-edit"
             ) Edit
             button(
-              @click="deleteProduct(row.id)"
+              @click="deleteUser(row.id)"
               class="btn-delete"
             ) Delete
 </template>
